@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'figtree';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: 'figtree';
+    src: url(assets/fonts/static/Figtree-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: 'figtree-extrabold';
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    display: swap;
+}
+
+:root {
+    --amarelo: #F4D04e;
+    --cinza: #6b6b6b;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'figtree', sans-serif;
+}
+
+body {
+    background-color: var(--amarelo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.container {
+    box-sizing: border-box;
+    background-color: var(--branco);
+    width: 384px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px;
+    border: 1px solid var(--preto);
+    border-radius: 10px;
+
+    box-shadow: 8px 8px 0px #000000;
+    transition: 0.3s ease;
+}
+
+div.container:hover{
+    box-shadow: 16px 16px 0px var(--preto);
+}
+
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+span {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.conteudo span {
+    background-color: var(--amarelo);
+    width: fit-content;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.publicacao {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--preto);
+}
+
+h1:hover{
+    color: var(--amarelo);
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza);
+}
+
+div.autor {
+    display: flex;
+    align-items: center;
+}
+
+div.autor img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
