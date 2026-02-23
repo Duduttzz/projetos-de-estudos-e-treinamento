@@ -2,7 +2,7 @@
 
 /*configurações para tablet*/
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     section#login {
     height: 80%;
     width: 84%;
@@ -26,7 +26,7 @@ div#formulario{
 }
 
 /*configurações para computador*/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     section#login{
         flex-direction: row-reverse;
         font-size: 1.1em;
