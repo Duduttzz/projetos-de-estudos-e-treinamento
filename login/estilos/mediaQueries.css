@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*configurações para tablet*/
+
+@media (min-width: 768px) {
+    section#login {
+    height: 80%;
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div#imagem{
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+}
+
+div#formulario{
+    margin: 20px;
+    width: 50%;
+
+}
+
+}
+
+/*configurações para computador*/
+@media (min-width: 1024px) {
+    section#login{
+        flex-direction: row-reverse;
+        font-size: 1.1em;
+        gap: 10px;
+    }
+
+    div#imagem{
+        border-radius: 50px 0px 0px 50px;
+    }
+}
