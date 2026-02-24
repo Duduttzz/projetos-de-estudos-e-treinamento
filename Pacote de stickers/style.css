@@ -8,9 +8,10 @@
 
 body {
     height: 100%;
-    margin: 42px 32px;
     box-sizing: border-box;
     text-align: center;
+
+    margin: 40px 20px;
 }
 
 .author-info {
