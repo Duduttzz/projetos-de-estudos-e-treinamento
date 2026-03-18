@@ -1,0 +1,24 @@
+form.container-cupom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+div.valores-pagar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.valores-pagar > div{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+div.valores{
+    display: flex;
+    align-items: flex-end;
+}

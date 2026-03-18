@@ -1,0 +1,60 @@
+section.container-items{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 25px;
+    flex: 1 1 300px;
+}
+
+article.carrinho-item{
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    grid-template-areas:
+    "img infos price"
+    "img infos remover";
+}
+
+div.img-item{
+    background-color: var(--branco);
+    border: var(--borda) 1px solid;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    grid-area: img;
+    height: 100px;
+}
+
+div.infos-item{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nome-item"
+    "cor-item"
+    "vazio"
+    "quant";
+
+    height: 100px;
+    grid-area: infos;
+    margin-left: 20px;
+}
+
+.nome-item, .valor-item{
+    font-weight: 600;
+}
+
+p.quant-item{
+    grid-area: quant;
+}
+
+button.remover-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    grid-area: remover;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

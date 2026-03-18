@@ -1,0 +1,29 @@
+hr{
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: var(--borda);
+    margin: 20px 0;
+}
+
+button.btn-primario{
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+input, select{
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: var(--borda) solid 1px;
+}
+
+h2{
+    font-size: 0.9rem;
+}

@@ -1,0 +1,29 @@
+section.container-contact{
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 300px;
+    gap: 30px;
+    padding: 25px;
+    background-color: var(--branco);
+}
+
+form.contact-infos{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+}
+
+div.Field{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    width: 100%;
+}
+
+div.container-country{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
