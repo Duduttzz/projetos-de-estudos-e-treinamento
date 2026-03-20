@@ -2,8 +2,9 @@ table{
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 40px;
+    margin: 40px;
     max-width: 1175px;
+    min-width: 700px;
 }
 
 /*thead*/
@@ -37,7 +38,6 @@ tbody > tr > th{
     border-bottom: var(--cinza-claro) 1px solid;
     text-indent: 20px;
     white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
     min-width: 100px;
 }
