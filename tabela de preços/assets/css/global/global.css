@@ -1,0 +1,36 @@
+@import url(reset.css);
+@import url(variables.css);
+@import url(fonts.css);
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: var(--branco);
+    color: var(--Azul-noturno);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    padding: 50px;
+    background-color: var(--Background-light);
+    background-image: url(../../images/bg-pattern.png);
+    border-bottom: var(--cinza-claro) 1px solid;
+}
+
+p{
+    color: var(--cinza-azulado);
+    max-width: 450px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+

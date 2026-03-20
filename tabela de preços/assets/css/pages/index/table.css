@@ -1,0 +1,68 @@
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    max-width: 1175px;
+}
+
+/*thead*/
+th.plan > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 10px;
+    margin: 30px;
+}
+
+span.plan-name{
+    color: var(--Azul-vibrante);
+}
+
+.time{
+    color: var(--cinza-azulado);
+    font-weight: 400;
+}
+
+/*tbody*/
+
+tbody > tr{
+    height: 50px;
+}
+
+tbody > tr > th{
+    background-color: var(--Background-light);
+    text-align: left;
+    border-bottom: var(--cinza-claro) 1px solid;
+    text-indent: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 100px;
+}
+
+tbody > tr > td{
+    text-align: center;
+    border-bottom: var(--cinza-claro) 1px solid;
+}
+
+/*tfoot*/
+tfoot > tr{
+    height: 70px;
+}
+
+td.Started{
+    text-align: center;
+
+}
+
+td > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--Azul-vibrante);
+    font-weight: 600;
+    gap: 5px;
+}

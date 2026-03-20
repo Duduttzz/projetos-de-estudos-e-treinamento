@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    .free-col, .team-col{
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    .free-col{
+        display: none;
+    }
+}

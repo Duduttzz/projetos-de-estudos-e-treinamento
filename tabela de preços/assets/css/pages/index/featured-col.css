@@ -1,0 +1,24 @@
+col.popular-col{
+    background-color: var(--Azul-noturno);
+}
+
+.popular{
+    color: white;
+}
+
+.plan.popular{
+    border-radius: 20px 20px 0 0;
+}
+
+.plan-name.popular{
+    color: var(--branco);
+    background-color: var(--Azul-vibrante);
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.Started.popular{
+    background-color: var(--Marrom-dourado);
+    border-radius: 0 0 20px 20px;
+}
