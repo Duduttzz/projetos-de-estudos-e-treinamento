@@ -16,7 +16,6 @@
     width: fit-content;
     padding: 10px;
     border-radius: 50%;
-    background-color: #FCEED8;
 }
 
 .title-card{
@@ -31,3 +30,15 @@
     border-radius: 20px;
 }
 
+/*colors of card-icon*/
+.card1{
+    background-color: #f9ead6;
+}
+
+.card2{
+    background-color: #dbe5f8;
+}
+
+.card3{
+    background-color: #f1dcde;
+}
