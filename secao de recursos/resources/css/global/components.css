@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    list-style: none;
+    margin: auto;
+
+    background-color: var(--cards-color);
+    border-radius: 20px;
+    width: 330px;
+    padding: 25px;
+    gap: 20px;
+}
+
+.card-icon{
+    font-size: 1.5rem;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FCEED8;
+}
+
+.title-card{
+    color: var(--Heading-color);
+}
+
+.description-card{
+    width: 210px;
+}
+
+.img-card{
+    border-radius: 20px;
+}
+

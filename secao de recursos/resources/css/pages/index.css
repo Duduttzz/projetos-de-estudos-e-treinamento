@@ -1,0 +1,39 @@
+body{
+    background-color: var(--background-color);
+    background-image: url(../images/Background_image.svg);
+}
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: fit-content;
+    gap: 20px;
+    padding: 30px;
+}
+
+main{
+    padding-top: 0;
+    padding: 30px;
+}
+
+h1{
+    color: var(--Heading-color);
+    max-width:500px;
+}
+
+p{
+    color: var(--HeaderText-color);
+}
+
+.cards-container{
+    display: flex;
+    flex-flow: row wrap;
+    width: fit-content;
+    gap: 50px;
+    margin: auto;
+}
+
