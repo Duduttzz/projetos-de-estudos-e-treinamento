@@ -1,0 +1,54 @@
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 15px;
+    padding: 20px;
+    margin: 10px 20px;
+    max-width: 700px;
+}
+
+p{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.Enter-email{
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.207);
+
+    max-width: 650px;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+
+    width: 100%;
+    gap: 25px;
+}
+
+input{
+    text-align: center;
+    height: 50px;
+
+    border-radius: 10px;
+    background-color: var(--Background-input);
+    border: var(--Border-input) 1px solid;
+}
+
+button{
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--Bottom-color);
+    color: white;
+}
